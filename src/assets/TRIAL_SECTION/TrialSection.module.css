@@ -1,0 +1,124 @@
+:root {
+  --heading-color: #101621;
+  --accent-color: #6f55ff;
+  --text-color: #73737b;
+}
+
+.trial_parent_container {
+  position: relative;
+  z-index: 3;
+  background: linear-gradient(45deg, #fffbf2, #edfffd);
+  padding: 235px 0 170px;
+}
+
+.trial_parent_container img {
+  position: absolute;
+  top: -120px;
+  left: 0;
+  z-index: -1;
+  width: 22%;
+}
+
+.trial_container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.trial_content {
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.trial_content h6 {
+  color: #787cff;
+  font-size: 20px;
+  font-family: "rubik";
+  padding-bottom: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.trial_content h2 {
+  font-family: "gilroy-heavy";
+  font-size: 58px;
+  line-height: 1.15em;
+  color: var(--heading-color);
+}
+
+.trial_form {
+  width: 50%;
+  padding-left: 65px;
+  align-self: center;
+}
+
+.trial_form input[type="text"] {
+  border: none;
+  outline: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  width: calc(100% - 180px);
+  margin-right: 20px;
+
+  border-bottom: 2px solid #545454;
+  height: 50px;
+  background: transparent;
+}
+
+.trial_form input[type="submit"] {
+  outline: none;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  background: #6f55ff;
+  box-shadow: 0 15px 30px rgb(139 110 209 / 30%);
+  transition: all 0.3s ease-in-out;
+}
+
+.trial_form form p {
+  font-family: "rubik";
+  padding-top: 10px;
+  color: var(--text-color);
+}
+
+.trial_form form p span {
+  color: #6f55ff;
+}
+
+@media screen and (max-width: 1190px) {
+  .trial_container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .trial_container {
+    flex-flow: column;
+    max-width: 720px;
+    padding: 0 20px;
+  }
+
+  .trial_content {
+    width: 100%;
+    padding-left: 25px;
+  }
+
+  .trial_content h2 {
+    font-size: 42px;
+  }
+  .trial_form {
+    width: 100%;
+    padding-left: 25px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .trial_container {
+    max-width: 550px;
+  }
+}
