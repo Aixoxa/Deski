@@ -91,12 +91,19 @@
   flex-wrap: wrap;
   margin-bottom: 280px;
   justify-content: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.pricing_card_container div.first_card:hover{
-  background-color: red;
+.pricing_card_container div.first_card,
+.pricing_card_container div.second_card,
+.pricing_card_container div.third_card {
+  transition: all 0.3s ease;
+}
 
+.pricing_card_container div.first_card:hover,
+.pricing_card_container div.second_card:hover,
+.pricing_card_container div.third_card:hover {
+  transform: translateY(-5px);
 }
 
 .pricing_card_container div {
@@ -453,7 +460,4 @@
   .pricing_review_container div {
     width: 100%;
   }
-}
-
-@media screen and (max-width: 450px) {
 }

@@ -3,7 +3,6 @@ import styles from "./SignUp.module.css";
 import { Link } from "react-router-dom";
 import Navbar from "../../assets/Navbar/Navbar";
 
-
 function SignUp() {
   const passwordDisplay = () => {
     const passwordElement = document.querySelectorAll(".password_element");
@@ -120,7 +119,9 @@ function SignUp() {
               <button>Sign Up</button>
             </div>
           </form>
-          <p className="text-center">© Copyright 2021 deski</p>
+          <p className="text-center" style={{ fontSize: "0.88rem" }}>
+            © Copyright 2021 deski
+          </p>
         </div>
       </div>
     </div>

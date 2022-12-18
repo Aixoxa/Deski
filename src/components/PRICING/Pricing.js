@@ -93,7 +93,7 @@ function Pricing() {
           </div>
         </div>
 
-        <div className="">
+        <div className={styles.second_card}>
           <div className="">
             <h5>TEAM</h5>
             {monthPlan ? (
@@ -107,7 +107,7 @@ function Pricing() {
             )}
             <h6>Small Office / Home Office</h6>
 
-            <img src="../images/icons/38.svg" alt="" />
+            <img src="../images/icons/40.svg" alt="" />
             <p>Billed per agent</p>
 
             <ul>
@@ -122,7 +122,7 @@ function Pricing() {
           </div>
         </div>
 
-        <div className="">
+        <div className={styles.third_card}>
           <div className="">
             <h5>BUSINESS</h5>
             {monthPlan ? (
@@ -136,7 +136,7 @@ function Pricing() {
             )}
             <h6>Small Office / Home Office</h6>
 
-            <img src="../images/icons/38.svg" alt="" />
+            <img src="../images/icons/41.svg" alt="" />
             <p>Billed per agent</p>
 
             <ul>
@@ -209,7 +209,7 @@ function Pricing() {
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <img src="../images/img_40.png" alt="" />
+            <img src="../images/smiling-guy2.png" alt="" />
           </div>
 
           <div
